@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+    <title>Security & Locksmithing Report</title>
+
+    <link rel="icon" href="../assets/img/tsp-favicon.png" sizes="32x32" />
+    <link rel="icon" href="../assets/img/tsp-favicon.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="../assets/img/tsp-favicon.png" />
+    <meta name="msapplication-TileImage" content="../assets/img/tsp-favicon.png" />
+</head>
+
+<body class="">
+    <header class="pb-3 border-bottom">
+        <div class="bg-dark text-light py-2 mb-3">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-auto social-media">
+                        <ul class="list-unstyled list-inline">
+                            <li class="list-inline-item">
+                                <a href="https://www.facebook.com/The-Security-Professionals-106115817815161/">
+                                    <svg viewbox="0 0 320 512">
+                                        <use xlink:href="#facebook-f-brands"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.linkedin.com/organization-guest/company/the-security-professionals">
+                                    <svg viewbox="0 0 448 512">
+                                        <use xlink:href="#linkedin-in-brands"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="col-auto">
+                        <a class="text-light btn btn-primary" href="tel:+19735574996">Call Us at (973) 557-4996</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="container py-3">
+            <div class="row justify-content-between">
+                <div class="col-12 col-md-5 col-lg-4">
+                    <a href="https://thesecurityprofessionals.com" target="_blank"><img class="img-fluid" src="../assets/img/the-security-professionals-logo.png"></a>
+                </div>
+                <div class="col-12 col-md-auto">
+                    <h1 class="m-0 h3">Security & Locksmithing Report</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="py-3">
+        <article class="container">
+            <div class="row justify-content-between my-5">
+
+                <div class="col-12 col-md-4 customer-info">
+                    <h2 class="h4">Prepared for:</h2>
+                    <table class="table table-responsive table-striped table-hover table-borderless table-sm">
+                        <tbody>
+                            <tr>
+                                <td>Customer Name:</td>
+                                <td>{customer_name}</td>
+                            </tr>
+                            <tr>
+                                <td>Location Type:</td>
+                                <td>{location_type}</td>
+                            </tr>
+                            <tr>
+                                <td>Address:</td>
+                                <td>{address}</td>
+                            </tr>
+                            <tr>
+                                <td>Contact Phone:</td>
+                                <td>{contact_phone}</td>
+                            </tr>
+                            <tr>
+                                <td>Contact Email</td>
+                                <td><a href="mailto:{contact_email}">{contact_email}</a></td>
+                            </tr>
+                            <tr>
+                                <td>Date of Visit</td>
+                                <td>{date_of_visit}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                <div class="intro col-12 col-md-6 ">
+                    <div class="inner p-5 bg-light border d-flex justify-content-center flex-column">
+                        <p>This report reflects our observations on our site visit, our overall recommendations, as well as industry best practices by area of your property.</p>
+                        <p>It is our hope that this provides you with valuable learning, things to think about to help you develop your security priorities, and how we best help you implement them.</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <section id="{section_id}" class="row my-5 border-bottom pb-5">
+                <h2 class="mb-5">Alarms</h2>
+                <div class="question col-12 mb-5">
+                    <div class="d-flex align-items-center">
+                        <form id="{question_id}-form" class="col-12 col-md-4 px-5 px-md-0">
+                            <div class="mb-3">
+                                <p>Does your home currently have an alarm system?</p>
+                                <div class="form-check">
+                                    <input class="form-check-input disabled" type="checkbox" value="" id="{question_id}-yes" disabled checked>
+                                    <label for="{question_id}-yes" class="form-label">Yes</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="{question_id}-no" disabled>
+                                    <label for="{question_id}-no" class="form-label">No</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="{question_id}-unknown" disabled>
+                                    <label for="{question_id}-unknown" class="form-label">Unknown</label>
+                                </div>
+
+                            </div>
+                        </form>
+                        <div class="col-12 col-md-8 remarks p-4 px-5 bg-primary text-light my-5">
+                            <p>Great call to have an alarm system! Home alarm systems are a trusted way to ward off intruders, signal when there's a break in, and keep your family safe. If your system hasn't been inspected in a while or you feel it needs
+                                tightening, we can certainly help you identify the vulnerabilities in your current system.</p>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="question col-12 mb-5">
+                    <div class="d-flex align-items-center">
+                        <form id="{question_id}-form" class="col-12 col-md-4 px-5 px-md-0">
+                            <div class="mb-3">
+                                <p>Are your windows and doors alarmed?</p>
+                                <div class="form-check">
+                                    <input class="form-check-input disabled" type="checkbox" value="" id="{question_id}-yes" disabled>
+                                    <label for="{question_id}-yes" class="form-label">Yes</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="{question_id}-no" disabled checked>
+                                    <label for="{question_id}-no" class="form-label">No</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="{question_id}-unknown" disabled>
+                                    <label for="{question_id}-unknown" class="form-label">Unknown</label>
+                                </div>
+
+                            </div>
+                        </form>
+                        <div class="col-12 col-md-8 remarks p-4 px-5 bg-primary text-light my-5">
+                            <p>Alarm systems and specific alarms are needed for doors and windows: the US Department of Justice reports that hundreds of thousands of home break-ins happen each year, only a third of those happening through the front door.
+                                Others take place at other points of entry so protecting all your entries is paramount to you and your family's safety. Remember to consider glass break coverage in addition to contact sensors as robbers will try and enter
+                                in any way and might rely on a lack of glassbreaking coverage as their way in.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="question col-12 mb-5">
+                    <div class="d-flex align-items-center">
+                        <form id="{question_id}-form" class="col-12 col-md-4 px-5 px-md-0">
+                            <div class="mb-3">
+                                <p>Do you have motion detectors?</p>
+                                <div class="form-check">
+                                    <input class="form-check-input disabled" type="checkbox" value="" id="{question_id}-yes" disabled>
+                                    <label for="{question_id}-yes" class="form-label">Yes</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="{question_id}-no" disabled>
+                                    <label for="{question_id}-no" class="form-label">No</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="{question_id}-unknown" disabled checked>
+                                    <label for="{question_id}-unknown" class="form-label">Unknown</label>
+                                </div>
+
+                            </div>
+                        </form>
+                        <div class="col-12 col-md-8 remarks p-4 px-5 bg-primary text-light my-5">
+                            <p>The architecture, groundplan, and landscaping of your home will all influence where motion detectors should be placed. Strategically laid out, these motion detectors will be key in protecting your home and offering a form of
+                                invisible security: intruders won't necessarily see the technology and are more likely to be ensnared by it.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="best-practices col-12">
+                    <div class="inner bg-light p-5">
+                        <h3>Best Practices/Industry Standards</h3>
+                        <p>{section_best_practice_intro}</p>
+                        <ul class="list">
+                            <li>{section_best_practice_1}</li>
+                            <li>{section_best_practice_2}</li>
+                            <li>{section_best_practice_3}</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </section>
+            <section id="{section_id}" class="row my-5 border-bottom pb-5">
+                <h2 class="mb-5">{section_name}</h2>
+                <div class="question col-12 row align-items-center mb-5">
+                    <form id="{question_id}-form" class="col-12 col-md-4">
+                        <div class="mb-3">
+                            <p>{question}</p>
+                            <div class="form-check">
+                                <input class="form-check-input disabled" type="checkbox" value="" id="{question_id}-yes" disabled checked>
+                                <label for="{question_id}-yes" class="form-label">Yes</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="{question_id}-no" disabled>
+                                <label for="{question_id}-no" class="form-label">No</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="{question_id}-unknown" disabled>
+                                <label for="{question_id}-unknown" class="form-label">Unknown</label>
+                            </div>
+
+                        </div>
+                    </form>
+                    <div class="col-12 col-md-8 remarks p-4 px-5 bg-primary text-light my-5">
+                        <p>{question_remarks}</p>
+                    </div>
+                </div>
+
+                <div class="question col-12 row align-items-center mb-5">
+                    <form id="{question_id}-form" class="col-12 col-md-4">
+                        <div class="mb-3">
+                            <p>{question}</p>
+                            <div class="form-check">
+                                <input class="form-check-input disabled" type="checkbox" value="" id="{question_id}-yes" disabled checked>
+                                <label for="{question_id}-yes" class="form-label">Yes</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="{question_id}-no" disabled>
+                                <label for="{question_id}-no" class="form-label">No</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="{question_id}-unknown" disabled>
+                                <label for="{question_id}-unknown" class="form-label">Unknown</label>
+                            </div>
+
+                        </div>
+                    </form>
+                    <div class="col-12 col-md-8 remarks p-4 px-5 bg-primary text-light my-5">
+                        <p>{question_remarks}</p>
+                    </div>
+                </div>
+
+                <div class="question col-12 row align-items-center mb-5">
+                    <form id="{question_id}-form" class="col-12 col-md-4">
+                        <div class="mb-3">
+                            <p>{question}</p>
+                            <div class="form-check">
+                                <input class="form-check-input disabled" type="checkbox" value="" id="{question_id}-yes" disabled checked>
+                                <label for="{question_id}-yes" class="form-label">Yes</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="{question_id}-no" disabled>
+                                <label for="{question_id}-no" class="form-label">No</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="{question_id}-unknown" disabled>
+                                <label for="{question_id}-unknown" class="form-label">Unknown</label>
+                            </div>
+
+                        </div>
+                    </form>
+                    <div class="col-12 col-md-8 remarks p-4 px-5 bg-primary text-light my-5">
+                        <p>{question_remarks}</p>
+                    </div>
+                </div>
+
+
+
+                <div class="best-practices  bg-light p-5">
+                    <h3>Best Practices/Industry Standards</h3>
+                    <p>{section_best_practice_intro}</p>
+                    <ul class="list">
+                        <li>{section_best_practice_1}</li>
+                        <li>{section_best_practice_2}</li>
+                        <li>{section_best_practice_3}</li>
+                    </ul>
+
+                </div>
+
+            </section>
+        </article>
+    </main>
+    <footer class="bg-dark text-white py-3">
+        <p class="text-center mb-0">&copy; 2021 - The Security Professionals</p>
+    </footer>
+    <div class="svg-sprites d-none">
+        <svg xmlns="http://www.w3.org/2000/svg"><symbol viewBox="0 0 320 512" id="facebook-f-brands"><title>facebook-f-brands</title><path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></symbol><symbol viewBox="0 0 448 512" id="linkedin-in-brands"><title>linkedin-in-brands</title><path fill="currentColor" d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"/></symbol></svg>
+    </div>
+</body>
+
+</html>

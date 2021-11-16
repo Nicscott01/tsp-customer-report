@@ -1,0 +1,16 @@
+//
+//      STYLESHEET FOR THE SECURITY PROFESSIONALS
+//      Customer Assesment Feedback Report
+//
+.social-media {
+    svg {
+        width: $spacer;
+        height: $spacer;
+    }
+}
+
+div>p {
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
